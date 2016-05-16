@@ -14,6 +14,7 @@
 		24CC9F8F1CE9669B0015AE76 /* Styly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24CC9F8D1CE9669B0015AE76 /* Styly.xcdatamodeld */; };
 		24CC9F911CE9669B0015AE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CC9F901CE9669B0015AE76 /* Assets.xcassets */; };
 		24CC9F941CE9669B0015AE76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CC9F921CE9669B0015AE76 /* LaunchScreen.storyboard */; };
+		24CC9F9C1CE96AB10015AE76 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CC9F9B1CE96AB10015AE76 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		24CC9F901CE9669B0015AE76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24CC9F931CE9669B0015AE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24CC9F951CE9669B0015AE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CC9F9B1CE96AB10015AE76 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CC9F9C1CE96AB10015AE76 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 		24CC9F751CE966980015AE76 = {
 			isa = PBXGroup;
 			children = (
+				24CC9F9B1CE96AB10015AE76 /* MapKit.framework */,
 				24CC9F801CE966990015AE76 /* Styly */,
 				24CC9F7F1CE966990015AE76 /* Products */,
 			);
